@@ -80,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		610A4712245632F900D25A58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61CD8D0F245442B800F7C8A5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		610A47132456330700D25A58 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61CD8D0D245442B800F7C8A5 /* TeamsViewController.swift */,
+				61CD8D392454489300F7C8A5 /* PlayersViewController.swift */,
+				61CD8D3B245456F300F7C8A5 /* PlayerDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		61CD8CFD245442B800F7C8A5 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +123,11 @@
 			children = (
 				61CD8D09245442B800F7C8A5 /* AppDelegate.swift */,
 				61CD8D0B245442B800F7C8A5 /* SceneDelegate.swift */,
-				61CD8D0D245442B800F7C8A5 /* TeamsViewController.swift */,
-				61CD8D0F245442B800F7C8A5 /* Main.storyboard */,
-				61CD8D12245442BE00F7C8A5 /* Assets.xcassets */,
+				610A4712245632F900D25A58 /* View */,
+				610A47132456330700D25A58 /* Controller */,
 				61CD8D14245442BE00F7C8A5 /* LaunchScreen.storyboard */,
+				61CD8D12245442BE00F7C8A5 /* Assets.xcassets */,
 				61CD8D17245442BE00F7C8A5 /* Info.plist */,
-				61CD8D392454489300F7C8A5 /* PlayersViewController.swift */,
-				61CD8D3B245456F300F7C8A5 /* PlayerDetailsViewController.swift */,
 			);
 			path = NBATeamsAndPlayers;
 			sourceTree = "<group>";
